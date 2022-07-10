@@ -9,15 +9,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # use the google/dart container (this makes `dart` available to use)
-    # container:
-    #   image: google/dart:latest
-
-    # checkout the code, run pub get and finally run tests
     steps:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@main
         with:
+          # Use the last stable Flutter SDK
           channel: "stable"
 
       - name: Flutter version
@@ -26,11 +22,11 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Verify formatting
-        run: dart format --output=none --set-exit-if-changed .
+      # - name: Verify formatting
+      #   run: dart format --output=none --set-exit-if-changed .
 
       - name: Analyze project source
-        run: dart analyze
+        run: flutter analyze
 
       - name: Run tests
         run: flutter test
