@@ -31,13 +31,13 @@ Simple and lite package to generate [Lorem Ipsum](https://en.wikipedia.org/wiki/
 ### Import the package
 
 ```dart
-import 'package:lorem_gen/lorem_gen.dart' as lorem;
+import 'package:lorem_gen/lorem_gen.dart';
 ```
 
 ### Generate random words
 
 ```dart
-print(lorem.createWord(numWords: 4));
+print(Lorem.word(numWords: 4));
 
 // Output:
 // Est ante in nibh
@@ -46,7 +46,7 @@ print(lorem.createWord(numWords: 4));
 ### Generate a random sentence
 
 ```dart
-print(lorem.createSentence());
+print(Lorem.sentence());
 
 // Output:
 // Mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim ut sem viverra.
@@ -55,7 +55,7 @@ print(lorem.createSentence());
 ### Generate a random paragraph
 
 ```dart
-print(lorem.createParagraph());
+print(Lorem.paragraph());
 
 // Output:
 // Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean et tortor at risus viverra adipiscing at in tellus integer. Aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Mollis nunc sed id semper risus in. Proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas. Consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.
@@ -64,7 +64,7 @@ print(lorem.createParagraph());
 ### Generate text with multiple paragraphs and sentences
 
 ```dart
-print(lorem.createText(numParagraphs: 3, numSentences: 5));
+print(Lorem.text(numParagraphs: 3, numSentences: 5));
 
 // Output:
 // At quis risus sed vulputate odio ut enim blandit volutpat maecenas. Odio ut sem nulla pharetra diam. Vitae proin sagittis nisl rhoncus. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. In nisl nisi scelerisque eu ultrices vitae auctor.
