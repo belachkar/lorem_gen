@@ -1,5 +1,9 @@
 <!-- markdownlint-disable-file MD041 -->
 
+## 1.0.2
+
+- Follow Dart file conventions
+
 ## 1.0.1
 
 - Follow Dart file conventions

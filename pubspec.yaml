@@ -1,6 +1,6 @@
 name: lorem_gen
-description: A simple lorem ipsum text generator.
-version: 1.0.1
+description: A simple and lite package to generate Lorem Ipsum and populate your app with text.
+version: 1.0.2
 homepage: https://github.com/belachkar/flutter_pkg_lorem_gen
 
 environment:
