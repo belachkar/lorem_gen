@@ -2,9 +2,8 @@ name: Publish to Pub.dev
 
 on:
   push:
-    branches: [master, main]
-    # tags:
-    #   - v**
+    tags:
+      - v**
 
 jobs:
   publish:
@@ -12,14 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@main
-
-      # - name: Install Flutter
-      #   uses: subosito/flutter-action@main
-      #   with:
-      #     channel: "stable"
-
-      # - name: Get Flutter version
-      #   run: flutter --version
 
       - name: ">> Dart package <<"
         uses: k-paxian/dart-package-publisher@master

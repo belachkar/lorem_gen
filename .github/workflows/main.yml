@@ -3,7 +3,7 @@ name: Get variable names
 on: push
 
 jobs:
-  one:
+  context:
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
