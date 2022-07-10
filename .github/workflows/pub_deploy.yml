@@ -12,10 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Install Flutter
-        uses: subosito/flutter-action@main
-        with:
-          channel: "stable"
+      # - name: Install Flutter
+      #   uses: subosito/flutter-action@main
+      #   with:
+      #     channel: "stable"
 
       - name: Get Flutter version
         run: flutter --version
@@ -25,3 +25,4 @@ jobs:
         with:
           accessToken: ${{ secrets.PUB_ACCESS_TOKEN }}
           refreshToken: ${{ secrets.PUB_REFRESH_TOKEN }}
+          flutter: true
