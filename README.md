@@ -17,7 +17,7 @@ and the Flutter guide for
 
 [![Pub](https://img.shields.io/pub/v/lorem_gen.svg)](https://pub.dartlang.org/packages/lorem_gen)
 
-Generate [Lorem-Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to populate your app with text.
+Simple and lite package to generate [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) and populate your app with text.
 
 ## Features
 
@@ -28,13 +28,13 @@ Generate [Lorem-Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to populate yo
 
 ## Usage
 
-Import the package:
+### Import the package
 
 ```dart
 import 'package:lorem_gen/lorem_gen.dart' as lorem;
 ```
 
-Generate random words:
+### Generate random words
 
 ```dart
 print(lorem.createWord(numWords: 4));
@@ -43,7 +43,7 @@ print(lorem.createWord(numWords: 4));
 // Est ante in nibh
 ```
 
-Generate a random sentence:
+### Generate a random sentence
 
 ```dart
 print(lorem.createSentence());
@@ -52,7 +52,7 @@ print(lorem.createSentence());
 // Mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim ut sem viverra.
 ```
 
-Generate a random paragraph:
+### Generate a random paragraph
 
 ```dart
 print(lorem.createParagraph());
@@ -61,7 +61,7 @@ print(lorem.createParagraph());
 // Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean et tortor at risus viverra adipiscing at in tellus integer. Aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Mollis nunc sed id semper risus in. Proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas. Consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.
 ```
 
-Generate text with multiple paragraphs and sentences:
+### Generate text with multiple paragraphs and sentences
 
 ```dart
 print(lorem.createText(numParagraphs: 3, numSentences: 5));
@@ -74,4 +74,4 @@ print(lorem.createText(numParagraphs: 3, numSentences: 5));
 
 ## Additional information
 
-This package uses a collection of 1187 words to create random words and sentences.
+This package uses a collection of **1187 words** to create random words and sentences.

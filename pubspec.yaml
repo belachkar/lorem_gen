@@ -1,7 +1,7 @@
 name: lorem_gen
-description: A simple lorem ipsum text generator. Based on lipsum-dart package.
-version: 1.0.0
-homepage: https://github.com/belachkar/lorem_gen
+description: A simple lorem ipsum text generator.
+version: 1.0.1
+homepage: https://github.com/belachkar/flutter_pkg_lorem_gen
 publish_to: https://pub.dev/packages/lorem_gen
 
 environment:
