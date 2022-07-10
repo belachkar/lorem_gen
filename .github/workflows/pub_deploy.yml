@@ -6,11 +6,19 @@ on:
       - v**
 
 jobs:
-  one:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout"
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@main
+        with:
+          channel: "stable"
+
+      - name: Get Flutter version
+        run: flutter --version
 
       - name: ">> Dart package <<"
         uses: k-paxian/dart-package-publisher@master
