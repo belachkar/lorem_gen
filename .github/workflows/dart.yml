@@ -15,11 +15,13 @@ jobs:
 
     # checkout the code, run pub get and finally run tests
     steps:
-      - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@main
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@main
+        with:
+          channel: "stable"
 
-      - name: Upgrade Flutter
-        run: flutter upgrade
+      - name: Flutter version
+        run: flutter --version
 
       - name: Install dependencies
         run: flutter pub get
