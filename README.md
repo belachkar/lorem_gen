@@ -1,5 +1,7 @@
 # lorem_gen
 
+[![Dart CI](https://github.com/belachkar/lorem_gen/workflows/Dart%20CI/badge.svg)](https://github.com/belachkar/lorem_gen/actions/workflows/dart.yml)
+[![Pub](https://github.com/belachkar/lorem_gen/workflows/Publish%20to%20Pub.dev/badge.svg)](https://github.com/belachkar/lorem_gen/actions/workflows/pub_deploy.yml)
 [![Pub](https://img.shields.io/pub/v/lorem_gen.svg)](https://pub.dartlang.org/packages/lorem_gen)
 
 Simple and lite `Dart` package to generate [Lorem (Ipsum)](https://en.wikipedia.org/wiki/Lorem_ipsum) and populate your app with text.
