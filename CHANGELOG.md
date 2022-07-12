@@ -1,3 +1,8 @@
+## 2.0.1
+
+- Changed github repo name -> `lorem_gen`.
+- Update the documentation.
+
 ## 2.0.0
 
 - Changed from `Flutter` to `Dart` package.
@@ -9,11 +14,11 @@
 
 ## 1.0.2
 
-- Follow Dart file conventions
+- Follow Dart file conventions.
 
 ## 1.0.1
 
-- Follow Dart file conventions
+- Follow Dart file conventions.
 
 ## 1.0.0
 

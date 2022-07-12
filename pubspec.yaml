@@ -1,6 +1,6 @@
 name: lorem_gen
 description: A simple and lite `Dart` package to generate Lorem (Ipsum) and populate your app with random generated text.
-version: 2.0.0
+version: 2.0.1
 repository: https://github.com/belachkar/lorem_gen
 issue_tracker: https://github.com/belachkar/lorem_gen/issues
 
