@@ -1,5 +1,5 @@
-import 'package:flutter_test/flutter_test.dart';
 import 'package:lorem_gen/lorem_gen.dart';
+import 'package:test/test.dart';
 
 void main() {
   group("Lorem Generator", () {

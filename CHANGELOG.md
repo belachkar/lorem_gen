@@ -1,4 +1,7 @@
-<!-- markdownlint-disable-file MD041 -->
+## 2.0.0
+
+- Changed from `Flutter` to `Dart` package.
+- Promoted to 2.0.0 version.
 
 ## 1.0.3
 
@@ -14,4 +17,6 @@
 
 ## 1.0.0
 
-- Initial version, derived from `lipsum-dart` package.
+- Initial version, derived from `lipsum` package.
+
+<!-- markdownlint-disable-file MD041 -->

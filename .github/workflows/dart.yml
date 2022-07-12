@@ -11,18 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - uses: subosito/flutter-action@main
-        with:
-          channel: "stable" # Use the last stable Flutter SDK
+      - uses: dart-lang/setup-dart@main
 
-      - name: Flutter version
-        run: flutter --version
+      - name: Dart version
+        run: dart --version
 
       - name: Install dependencies
-        run: flutter pub get
+        run: dart pub get
 
       - name: Analyze project source
-        run: flutter analyze
+        run: dart analyze
 
       - name: Run tests
-        run: flutter test
+        run: dart test

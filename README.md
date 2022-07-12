@@ -1,23 +1,8 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
 # lorem_gen
-
-<!-- [![Build Status](https://travis-ci.com/adaptant-labs/lorem_gen.svg?branch=master)](https://travis-ci.com/adaptant-labs/lorem_gen#) -->
 
 [![Pub](https://img.shields.io/pub/v/lorem_gen.svg)](https://pub.dartlang.org/packages/lorem_gen)
 
-Simple and lite package to generate [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) and populate your app with text.
+Simple and lite `Dart` package to generate [Lorem (Ipsum)](https://en.wikipedia.org/wiki/Lorem_ipsum) and populate your app with text.
 
 ## Features
 
@@ -75,3 +60,7 @@ print(Lorem.text(numParagraphs: 3, numSentences: 5));
 ## Additional information
 
 This package uses a collection of **1187 words** to create random words and sentences.
+
+## Inspiration
+
+- [lipsum](https://pub.dev/packages/lipsum)
