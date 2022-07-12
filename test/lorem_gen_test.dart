@@ -3,6 +3,20 @@ import 'package:test/test.dart';
 
 void main() {
   group("Lorem Generator", () {
+    test("Shoud get 6 words", () {
+      String s = Lorem.word(numWords: 6);
+      expect(s.split(" ").length, 6);
+    });
+
+    test("Shoud get 1 word if words Nbr <= 1", () {
+      String s1 = Lorem.word(numWords: 1);
+      String s2 = Lorem.word(numWords: 0);
+      String s3 = Lorem.word(numWords: -1);
+      expect(s1.split(" ").length, 1);
+      expect(s2.split(" ").length, 1);
+      expect(s3.split(" ").length, 1);
+    });
+
     test("Sentence shoud contain a period", () {
       String s = Lorem.sentence();
       expect(r".".allMatches(s).length, 1);
